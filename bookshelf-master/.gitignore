@@ -1,0 +1,17 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+.DS_Store
+.expo-shared
+.venv
+predict_df.csv
+model_rec.joblib
+.funcignore
