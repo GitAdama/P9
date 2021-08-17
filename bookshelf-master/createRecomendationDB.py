@@ -19,8 +19,8 @@ def get_recommendations():
     return recommendations
     
 # Initialize the Cosmos client
-endpoint = "https://db-p9cosmos.documents.azure.com:443/"
-key = 'b2YQGIzoUAUsvXcRwuEwjoVpSFUeEPmehpliLgyOFWLDFTQjkccj099TAG0YinPAu0Exa9X5d9NodM23NYZxJw=='
+endpoint = <<YOUR_ENDPOINT>>
+key = <<YOUR_KEY>>
 
 # <create_cosmos_client>
 client = CosmosClient(endpoint, key)
